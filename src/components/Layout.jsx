@@ -1,5 +1,11 @@
-// Layout.jsx
+/*
+  File Name: Layout.jsx
+  Student's Name: Eric Lamoureux
+  StudentID: 301013898
+  Date: September 29, 2024
+*/
 
+// Layout for navigation
 import { Link } from 'react-router-dom';
 import logo from '/images/Logo.png';
 
