@@ -61,6 +61,33 @@ h2, p {
   text-align: center;
 }
 
+/* Home Page Styles */
+.home-container {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  width: 200px; /* Optional: Adjust width as needed */
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    width: 100%;
+  }
+
+  button {
+    width: 100%; /* Full width for small screens */
+  }
+}
+
+
 /* Button Styling */
 button {
   display: inline-block;
@@ -121,6 +148,19 @@ form input, form textarea {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+
+/* About Me Section */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
