@@ -13,6 +13,5 @@ router.post('/', async (req, res) => {
   res.json(newUser);
 });
 
-// More routes: GET by ID, PUT, DELETE
 
 module.exports = router;
