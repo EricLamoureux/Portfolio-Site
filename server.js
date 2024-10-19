@@ -2,12 +2,14 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
-const contactRoutes = require('./server/routes/contacts');
-const userRoutes = require('./server/routes/users');
+const contactRoutes = require('./routes/contactRoutes');
+const userRoutes = require('./routes/userRoutes');
 
 dotenv.config();
 
 const app = express();
+const port = 3000;
+
 app.use(cors());
 app.use(express.json());
 app.use('/api/contacts', contactRoutes);
